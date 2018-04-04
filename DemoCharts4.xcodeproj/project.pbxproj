@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D9B0EFC2074D736008E8021 /* Date Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9B0EFB2074D736008E8021 /* Date Utility.swift */; };
+		0D9B0EFE2074D857008E8021 /* Alpha Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9B0EFD2074D857008E8021 /* Alpha Network.swift */; };
+		0D9B0F002074D904008E8021 /* Chart Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9B0EFF2074D904008E8021 /* Chart Formatter.swift */; };
 		0DA1CC602074D32400DBD3F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA1CC5F2074D32400DBD3F0 /* AppDelegate.swift */; };
 		0DA1CC622074D32400DBD3F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA1CC612074D32400DBD3F0 /* ViewController.swift */; };
 		0DA1CC652074D32400DBD3F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA1CC632074D32400DBD3F0 /* Main.storyboard */; };
 		0DA1CC672074D32400DBD3F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA1CC662074D32400DBD3F0 /* Assets.xcassets */; };
 		0DA1CC6A2074D32500DBD3F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA1CC682074D32500DBD3F0 /* LaunchScreen.storyboard */; };
+		A6FF0DEEAE2AA0FA32A2A27A /* Pods_DemoCharts4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BAFA497881FABC964B2DC2 /* Pods_DemoCharts4.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D9B0EFB2074D736008E8021 /* Date Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date Utility.swift"; sourceTree = "<group>"; };
+		0D9B0EFD2074D857008E8021 /* Alpha Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alpha Network.swift"; sourceTree = "<group>"; };
+		0D9B0EFF2074D904008E8021 /* Chart Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chart Formatter.swift"; sourceTree = "<group>"; };
 		0DA1CC5C2074D32400DBD3F0 /* DemoCharts4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCharts4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA1CC5F2074D32400DBD3F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DA1CC612074D32400DBD3F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,9 @@
 		0DA1CC662074D32400DBD3F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DA1CC692074D32500DBD3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DA1CC6B2074D32500DBD3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BAFA497881FABC964B2DC2 /* Pods_DemoCharts4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoCharts4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF54839751812753D34B037 /* Pods-DemoCharts4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCharts4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCharts4/Pods-DemoCharts4.debug.xcconfig"; sourceTree = "<group>"; };
+		FE8E3927098FD30032CD899B /* Pods-DemoCharts4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCharts4.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoCharts4/Pods-DemoCharts4.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6FF0DEEAE2AA0FA32A2A27A /* Pods_DemoCharts4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D9B0F012074DA86008E8021 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D9B0EFF2074D904008E8021 /* Chart Formatter.swift */,
+				0D9B0EFD2074D857008E8021 /* Alpha Network.swift */,
+				0D9B0EFB2074D736008E8021 /* Date Utility.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0DA1CC532074D32400DBD3F0 = {
 			isa = PBXGroup;
 			children = (
 				0DA1CC5E2074D32400DBD3F0 /* DemoCharts4 */,
 				0DA1CC5D2074D32400DBD3F0 /* Products */,
+				3A6D368E80340E9513219D70 /* Pods */,
+				876D6DF4E9EDCF0446A7E44F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,32 @@
 		0DA1CC5E2074D32400DBD3F0 /* DemoCharts4 */ = {
 			isa = PBXGroup;
 			children = (
-				0DA1CC5F2074D32400DBD3F0 /* AppDelegate.swift */,
-				0DA1CC612074D32400DBD3F0 /* ViewController.swift */,
 				0DA1CC632074D32400DBD3F0 /* Main.storyboard */,
+				0DA1CC612074D32400DBD3F0 /* ViewController.swift */,
+				0D9B0F012074DA86008E8021 /* Model */,
 				0DA1CC662074D32400DBD3F0 /* Assets.xcassets */,
 				0DA1CC682074D32500DBD3F0 /* LaunchScreen.storyboard */,
 				0DA1CC6B2074D32500DBD3F0 /* Info.plist */,
+				0DA1CC5F2074D32400DBD3F0 /* AppDelegate.swift */,
 			);
 			path = DemoCharts4;
+			sourceTree = "<group>";
+		};
+		3A6D368E80340E9513219D70 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CF54839751812753D34B037 /* Pods-DemoCharts4.debug.xcconfig */,
+				FE8E3927098FD30032CD899B /* Pods-DemoCharts4.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		876D6DF4E9EDCF0446A7E44F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25BAFA497881FABC964B2DC2 /* Pods_DemoCharts4.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0DA1CC6E2074D32500DBD3F0 /* Build configuration list for PBXNativeTarget "DemoCharts4" */;
 			buildPhases = (
+				7C08A344D84C68BFFFE3D776 /* [CP] Check Pods Manifest.lock */,
 				0DA1CC582074D32400DBD3F0 /* Sources */,
 				0DA1CC592074D32400DBD3F0 /* Frameworks */,
 				0DA1CC5A2074D32400DBD3F0 /* Resources */,
+				1C8F081A1D98B11CBF895ADC /* [CP] Embed Pods Frameworks */,
+				86E067E4B270707BBEE007AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,7 +135,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Warren Hansen";
 				TargetAttributes = {
 					0DA1CC5B2074D32400DBD3F0 = {
@@ -131,13 +175,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C8F081A1D98B11CBF895ADC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemoCharts4/Pods-DemoCharts4-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoCharts4/Pods-DemoCharts4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C08A344D84C68BFFFE3D776 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoCharts4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86E067E4B270707BBEE007AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoCharts4/Pods-DemoCharts4-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0DA1CC582074D32400DBD3F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D9B0F002074D904008E8021 /* Chart Formatter.swift in Sources */,
 				0DA1CC622074D32400DBD3F0 /* ViewController.swift in Sources */,
 				0DA1CC602074D32400DBD3F0 /* AppDelegate.swift in Sources */,
+				0D9B0EFE2074D857008E8021 /* Alpha Network.swift in Sources */,
+				0D9B0EFC2074D736008E8021 /* Date Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +278,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +286,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +337,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +345,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -272,6 +377,7 @@
 		};
 		0DA1CC6F2074D32500DBD3F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CF54839751812753D34B037 /* Pods-DemoCharts4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +393,7 @@
 		};
 		0DA1CC702074D32500DBD3F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE8E3927098FD30032CD899B /* Pods-DemoCharts4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
